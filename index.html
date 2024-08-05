@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Ulice Krakowa</title>
+        <!--
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+            integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+            crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+        -->
+        <link rel="stylesheet" href="css/leaflet.css"/>
+        <script src="js/leaflet.js"></script>
+        <style type="text/css"><!--
+            body {
+                padding: 0;
+                margin: 0;
+            }
+            html, body, #map {
+                height: 100%;
+                width: 100%;
+            }
+        //--></style>
+    </head>
+    <body>
+        <div id="map"></div>
+        <script type="text/javascript">
+            var map = L.map('map').setView([50.06170971570898, 19.937360020536737], 12);
+            L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 19,
+                attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+            }).addTo(map);
+        </script>
+        <script src="js/leaflet-color-markers.js"></script>
+        <script src="data1.js"></script>
+        <script src="data2.js"></script>
+    </body>
+</html>
+
