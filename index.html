@@ -25,16 +25,27 @@
     </head>
     <body>
         <div id="map"></div>
+        <script src="js/leaflet-color-markers.js"></script>
+        <script src="data1.js"></script>
+        <script src="data2.js"></script>
+        <script src="data3.js"></script>
         <script type="text/javascript">
             var map = L.map('map').setView([50.06170971570898, 19.937360020536737], 12);
             L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 maxZoom: 19,
                 attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
             }).addTo(map);
+
+            var overlays = {};
+            overlays["Zdjęcia (" + data1.getLayers().length + ")"] = data1;
+            overlays["Do sfocenia (" + data2.getLayers().length + ")"] = data2;
+            overlays["Nie ma już (" + data3.getLayers().length + ")"] = data3;
+
+            Object.keys(overlays).forEach(function(label) {
+                map.addLayer(overlays[label]);
+            });
+            L.control.layers(null, overlays, {collapsed: false}).addTo(map);
         </script>
-        <script src="js/leaflet-color-markers.js"></script>
-        <script src="data1.js"></script>
-        <script src="data2.js"></script>
     </body>
 </html>
 
