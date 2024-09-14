@@ -45,6 +45,11 @@
                 map.addLayer(overlays[label]);
             });
             L.control.layers(null, overlays, {collapsed: false}).addTo(map);
+
+            var infoFopup = L.popup()
+                .setLatLng([50.06170971570898, 19.937360020536737])
+                .setContent("<h2>Ta mapa jest w budowie!</h2><p>Nie wszystkie pinezki znajdują się w poprawnym miejscu (GPS w telefonie często nie nadążął). Rodzaje tabliczek nie są rozróżnione kolorami. Niektóre pinezki wskazują na współczesne tabliczki, których nie powinno być na mapie. Brakuje legendy. Brakuje odnośników do Google Street View dla tych tabliczek, których już nie ma. Brakuje... wielu rzeczy brakuje.</p>")
+                .openOn(map);
         </script>
     </body>
 </html>
