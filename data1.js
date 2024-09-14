@@ -1,7 +1,7 @@
 let d = Array(981);
 function a(i,la,lo,im,n) {
   d[i] = L.marker([la,lo], {icon: goldIcon});
-  d[i].bindPopup('<img src="img/'+im+'.jpg" width="400"><br>'+n+' <a href="'+im+'">#</a>', {maxWidth: 400});
+  d[i].bindPopup('<img src="img/'+im+'.jpg" width="400"><br>'+n+' <a href="#'+im+'">#</a>', {maxWidth: 400});
 }
 a(0,50.06779166666667,19.965405555555556,'4497ec0921b86c19031af22ad17d10c6','grunwaldzka');
 a(1,50.07325158333334,20.009274194444444,'a31a52cd707a1ef78bfc05e08e0aa3b3','narciarska');
