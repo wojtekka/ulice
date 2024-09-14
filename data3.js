@@ -1,4 +1,4 @@
-var data3 = L.layerGroup([
+let data3 = L.layerGroup([
 L.marker([50.001211, 19.898431], {icon: greyIcon}),
 L.marker([49.997372, 19.914146], {icon: greyIcon}),
 L.marker([50.000262, 19.90661], {icon: greyIcon}),
