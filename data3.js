@@ -137,6 +137,6 @@ L.marker([50.079604, 19.967889], {icon: greyIcon}),
 L.marker([50.071892, 20.013673], {icon: greyIcon}),
 L.marker([50.101748, 19.961165], {icon: greyIcon}),
 L.marker([50.09564, 19.927322], {icon: greyIcon}),
-L.marker([50.071912, 19.982755], {icon: greyIcon}),
-L.marker([50.062079, 19.990006], {icon: greyIcon}),
+L.marker([50.071912, 19.982755], {icon: greyIcon}).bindPopup('<iframe src="https://www.google.com/maps/embed?pb=!4v1726427591559!6m8!1m7!1s_wCfw2UcLQMcQlOi0Ab6-g!2m2!1d50.07183828820255!2d19.98270839756287!3f0.763576791759931!4f2.7431568847079433!5f3.325193203789971" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>', {maxWidth: 400}),
+L.marker([50.062079, 19.990006], {icon: greyIcon}).bindPopup('<iframe src="https://www.google.com/maps/embed?pb=!4v1726427702944!6m8!1m7!1ssP3qGNWtGO15RtRdXzqkIQ!2m2!1d50.06207808112238!2d19.99007497487119!3f250.53551580960132!4f-10.524839134058098!5f3.325193203789971" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>', {maxWidth: 400}),
 ]);
