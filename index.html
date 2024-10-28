@@ -11,7 +11,9 @@
             crossorigin=""></script>
         -->
         <link rel="stylesheet" href="css/leaflet.css"/>
+        <link rel="stylesheet" href="css/L.Control.Locate.min.css"/>
         <script src="js/leaflet.js"></script>
+        <script src="js/L.Control.Locate.js"></script>
         <style type="text/css"><!--
             body {
                 padding: 0;
@@ -22,6 +24,7 @@
                 width: 100%;
             }
         //--></style>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     </head>
     <body>
         <div id="map"></div>
@@ -45,6 +48,7 @@
                 map.addLayer(overlays[label]);
             });
             L.control.layers(null, overlays, {collapsed: false}).addTo(map);
+            L.control.locate().addTo(map);
 
             map.on("popupclose", function() {
                 if ("pushState" in history)
