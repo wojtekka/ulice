@@ -56,7 +56,7 @@
             path.setAttributeNS(null, "d", "M15.6,1c-7.7,0-14,6.3-14,14c0,10.5,14,26,14,26s14-15.5,14-26C29.6,7.3,23.3,1,15.6,1z");
             path.setAttribute('fill', options.markerColor);
             //path.setAttribute('stroke', options.outlineColor);
-            path.setAttribute('stroke', "black");
+            path.setAttribute('stroke', (options.markerColor != "black") ? "black" : "white");
             path.setAttribute('stroke-opacity', "33%");
             //
             path.setAttribute('stroke-width', options.outlineWidth);
