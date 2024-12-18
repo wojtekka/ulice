@@ -12,8 +12,10 @@
         -->
         <link rel="stylesheet" href="css/leaflet.css"/>
         <link rel="stylesheet" href="css/L.Control.Locate.min.css"/>
+        <link rel="stylesheet" href="css/leaflet.icon-material.css"/>
         <script src="js/leaflet.js"></script>
         <script src="js/L.Control.Locate.js"></script>
+        <script src="js/leaflet.icon-material.js"></script>
         <style type="text/css"><!--
             body {
                 padding: 0;
@@ -28,10 +30,11 @@
     </head>
     <body>
         <div id="map"></div>
-        <script src="js/leaflet-color-markers.js"></script>
+        <script type="text/javascript">
+            let layers = [];
+        </script>
         <script src="data1.js"></script>
         <script src="data2.js"></script>
-        <script src="data3.js"></script>
         <script type="text/javascript">
             let map = L.map('map').setView([50.06170971570898, 19.937360020536737], 12);
             L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -40,13 +43,11 @@
             }).addTo(map);
 
             let overlays = {};
-            overlays["Zdjęcia (" + data1.getLayers().length + ")"] = data1;
-            overlays["Do sfocenia (" + data2.getLayers().length + ")"] = data2;
-            overlays["Nie ma już (" + data3.getLayers().length + ")"] = data3;
-
-            Object.keys(overlays).forEach(function(label) {
-                map.addLayer(overlays[label]);
-            });
+            for (const layer of layers) {
+                let color = '<div style="display: inline-block; vertical-align: middle; height: 1em; width: 1em; border: 1px solid black; background-color: ' + layer.color + ';">&nbsp;</div>';
+                overlays[color + " " + layer.name + " (" + layer.group.getLayers().length + ")"] = layer.group;
+                map.addLayer(layer.group);
+            }
             L.control.layers(null, overlays, {collapsed: false}).addTo(map);
             L.control.locate().addTo(map);
 
