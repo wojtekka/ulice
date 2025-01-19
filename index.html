@@ -48,7 +48,7 @@
                 overlays[color + " " + layer.name + " (" + layer.group.getLayers().length + ")"] = layer.group;
                 map.addLayer(layer.group);
             }
-            L.control.layers(null, overlays, {collapsed: false}).addTo(map);
+            L.control.layers(null, overlays).addTo(map);
             L.control.locate().addTo(map);
 
             map.on("popupclose", function() {
