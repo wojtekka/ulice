@@ -44,7 +44,6 @@ a(50.07571,19.9695,'f49ccdf8647519d4ef5b1cf38cfca52b','raciborskiego',i),
 var i = new L.IconMaterial.icon({icon: '', markerColor: 'purple', outlineWidth: 1, iconSize: [31, 42]});
 layers.push({name: 'Klasyczne A', color: 'purple', group: L.layerGroup([
 a(50.07325,20.00927,'a31a52cd707a1ef78bfc05e08e0aa3b3','narciarska',i),
-a(50.07279,20.05286,'d5cd2707c0f980a136e5ee4ddd86cfcd','orkana',i),
 a(50.05177,19.95042,'f87798ddc6cd3bddf4bb48439b05b79d','starowiślna',i),
 a(50.06027,19.93005,'95e0df58a7f8c1c7854f9c7af7aef8f9','piłsudskiego',i),
 a(50.08238,19.88063,'db8023fc53e78e3a4a14a121cd675b08','zielony most',i),
@@ -734,25 +733,6 @@ a(50.0927,19.96886,'95bbd4170657ffe51613cfe8117d0125','łuszczkiewicza',i),
 a(50.07678,20.04518,'93d553ae3830a8774ce5997263b73a9e','rydza śmigłego',i),
 a(50.07758,20.04742,'9fc9985f597e73aae5f5853565f92c54','rydza-śmigłego',i),
 ])});
-var i = new L.IconMaterial.icon({icon: '', markerColor: 'peru', outlineWidth: 1, iconSize: [31, 42]});
-layers.push({name: 'Nowa Huta', color: 'peru', group: L.layerGroup([
-a(50.07267,20.05297,'10c4c2766ebc207504ae246a465081c0','orkana',i),
-a(50.07291,20.03782,'327388ddda4ebb180ec8adc1c527243d','aleja róż',i),
-a(50.0733,20.04967,'f88a78ae660fa23e18eafcb859c242d1','orkana',i),
-a(50.07364,20.0481,'c8cc7e8f4fe9115576c2c4086ee9dcc5','orkana',i),
-a(50.07332,20.05112,'f9e0405c5e7599afd2ff4d3d041385fd','orkana',i),
-a(50.07509,20.04701,'72ca8b2cbaaab14b28f62dcad62e3c41','struga',i),
-a(50.07779,20.04509,'708c86369d53ac83529b082c5a6c2b07','struga',i),
-a(50.07748,20.04533,'df7245857be81dc620b75fa2d1001f24','struga',i),
-a(50.077,20.04589,'ffcc0215b295044c007e9e954ca9a919','struga',i),
-a(50.08234,20.04436,'a4950a7b2dcf061ce5c1a5be131e6662','bulwarowa',i),
-a(50.08054,20.04803,'c60dcda9831d7d135db506061149c7dd','bulwarowa',i),
-a(50.07859,20.04457,'b0bc287718532873920da8e3f1006ea6','żeromskiego',i),
-a(50.07233,20.03275,'b2962ec258be008ed0d4e20b480e6cde','spacerowa',i),
-a(50.0788,20.03874,'f341e5536466a5c627d86044223528c9','żeromskiego',i),
-a(50.07897,20.03884,'1f202eca6dc81efb62cfda475a4a897a','aleja róż',i),
-a(50.08104,20.04697,'459e48dd0b5eef1a2be7c421440ab6f9','bulwarowa',i),
-])});
 var i = new L.IconMaterial.icon({icon: '', markerColor: 'lightgray', outlineWidth: 1, iconSize: [31, 42]});
 layers.push({name: 'Jednorazowe', color: 'lightgray', group: L.layerGroup([
 a(50.07238,19.89896,'b738199219eaef0913ad4746d7df08f4','lea',i),
@@ -862,6 +842,36 @@ a(50.06353,19.92934,'e0e01aa90bc03ff5f277f2a2c1ff6ae8','krupnicza',i),
 a(50.08658,19.94826,'02a22f61d3f7f35c4b203714c9b43db6','żmujdzka',i),
 a(50.06844,19.97897,'555e62ef72f5f46fcc5a13c61c4b9295','mogilska',i),
 ])});
+var i = new L.IconMaterial.icon({icon: '', markerColor: 'rgb(255,215,0)', outlineWidth: 1, iconSize: [31, 42]});
+layers.push({name: 'Nieskategoryzowane', color: 'rgb(255,215,0)', group: L.layerGroup([
+a(50.07296,20.05304,'3df1bdb86a9335f05bbd9a15d86c0281','orkana',i),
+a(50.0906,19.95809,'a4a4987962b9e87332a617c068d1b1f9','pocieszka',i),
+a(50.0808,20.06028,'479c66010d6201464c67461c014d6561','wąwozowa',i),
+a(50.05819,19.92617,'b4987dba642eae7ab6907ee6c2627e22','piłsudskiego',i),
+a(50.07302,20.05279,'fe0f56057cc9ca9a0c86359da1fd3073','orkana',i),
+a(50.07234,20.03849,'892b18abb07e688fd9806f23c19d3dda','plac centralny',i),
+a(50.07289,20.03692,'6e39b24b5017e58272338965aae34d80','plac centralny',i),
+a(50.07211,20.03625,'95e09458386823d94125d47a66371648','plac centralny',i),
+a(50.05749,19.91342,'4a09f4967f0fe555fa22cac785c985fb','kasztelańska',i),
+a(50.04535,19.9572,'cbb04a39964aa2e828e41960e0d7bf7b','józefińska',i),
+a(50.05756,19.91163,'1d531c6b87dcca2d77f5c2748784eba6','focha',i),
+a(50.0599,19.92783,'70c3d92f5c778f0024340bee950045d5','piłsudskiego',i),
+a(50.07286,20.03744,'6a886632ba0b4424f7b6fa032bac6348','plac centralny',i),
+a(50.07893,19.87971,'e762167468c69fa2440a02d2938221db','lindego',i),
+a(50.04491,19.95893,'a5b198f9e472b5d5214965a9d079a0e6','dąbrowskiego',i),
+a(50.07212,20.0192,'51e28668661f607a38b29d4ebd2caa4b','plac centralny',i),
+a(50.06097,19.92777,'c20a06688dec6f0156be6e5c60208ae8','sikorskiego',i),
+a(50.07269,20.03803,'d6c38ed65012ed6ebc9c0a50581cee05','plac centralny',i),
+a(50.04499,19.95411,'f4592f9630f57a196d7fe1d0b0946649','limanowskiego',i),
+a(50.06133,20.05843,'63b9c5eff436d60cba6f13df34ddfb1c','żaglowa',i),
+a(50.0663,19.94353,'50a92aab7d00a67c2a90bd283a322556','worcella',i),
+a(50.07288,20.03715,'cf14f9dc019e6b26e0db81100d9767d8','róż',i),
+a(50.08575,19.95404,'2f71cc9567778f59637cbffffb704af7','29 listopada',i),
+a(50.06756,19.92874,'457489ffc92852519f4b51331341d671','kremerowska',i),
+a(50.04935,19.92615,'b891e21c779933ad0f8a868efb05a3d4','skwerowa',i),
+a(50.07266,20.03644,'9970694706b4d2b756552ef80f41d10d','plac centralny',i),
+a(50.07274,20.03817,'17b9b24a358adb617773a0fcace966b7','plac centralny',i),
+])});
 var i = new L.IconMaterial.icon({icon: '', markerColor: 'palegreen', outlineWidth: 1, iconSize: [31, 42]});
 layers.push({name: 'Majuskuła', color: 'palegreen', group: L.layerGroup([
 a(50.08925,20.01501,'2fe1fb783d4f734b29d19067513933f2','dunikowskiego',i),
@@ -875,8 +885,8 @@ a(50.08542,20.07436,'3743e9c21f3b12a48f961dbeaebbabbc','blokowa',i),
 a(50.06282,20.07012,'e171a37c414b4ae6929d4c6afafbc0c9','kopaniec',i),
 a(50.06044,20.07385,'9b59a1e157b6f33dc753e9e5178b7272','jeżynowa',i),
 a(50.06977,20.11061,'c3bf2e570f37a95ec57d5c19430dcdf7','nadbrzezie',i),
-a(50.05449,20.12511,'4f47866aeb864190a7dbd45446537f8b','kąkolowa',i),
 a(50.0108,19.96651,'980c344e3e6589ee49fd6dcac90a514b','tuchowska',i),
+a(50.05449,20.12511,'4f47866aeb864190a7dbd45446537f8b','kąkolowa',i),
 a(49.99861,19.95794,'7045e9d227dc9e006c45da0cf67a2bee','podgórki',i),
 a(50.06255,20.07093,'36d873d3b7ea1df785b1d07c87aea38c','powiatowa',i),
 a(50.07127,20.11364,'8e9f459b161dcd878c4f881209854c0c','martenowska',i),
@@ -892,7 +902,6 @@ a(50.08871,20.04704,'c0168fdbaeb0147f5858d0ba299d30e6','makuszyńskiego',i),
 a(50.02256,19.91174,'a2841fea7017c2a8c247f417869c3604','liściasta',i),
 a(50.02162,19.90596,'e2b6542ea570a7aff5823798d19f4fe0','przemiarki',i),
 a(50.09602,20.0375,'8949efd4e5a94c0e5b14fffb618481d7','petofiego',i),
-a(50.06162,20.05837,'4bebdfe44c0bbf2bbe02a2368e772da2','żaglowa',i),
 a(50.10218,20.07486,'749159e2f6a6be13e581d47ff01f27bf','głębinowa',i),
 a(50.02902,19.85348,'76f318549df398b849eb959e2013fa63','krzewowa',i),
 ])});
@@ -1067,9 +1076,23 @@ layers.push({name: 'Ogrodniki/Uboczna', color: 'lightcyan', group: L.layerGroup(
 a(50.02677,19.9355,'8b65826b82cc3f228cb654e1de0f4274','ogrodniki',i),
 a(50.05044,19.87756,'ce7f7bb092c67ee099f2a4c9d6717560','uboczna',i),
 ])});
-var i = new L.IconMaterial.icon({icon: '', markerColor: 'rgb(255,215,0)', outlineWidth: 1, iconSize: [31, 42]});
-layers.push({name: 'Nieskategoryzowane', color: 'rgb(255,215,0)', group: L.layerGroup([
-a(50.07893,19.87971,'e762167468c69fa2440a02d2938221db','lindego',i),
+var i = new L.IconMaterial.icon({icon: '', markerColor: 'peru', outlineWidth: 1, iconSize: [31, 42]});
+layers.push({name: 'Nowa Huta', color: 'peru', group: L.layerGroup([
+a(50.07291,20.03782,'327388ddda4ebb180ec8adc1c527243d','aleja róż',i),
+a(50.0733,20.04967,'f88a78ae660fa23e18eafcb859c242d1','orkana',i),
+a(50.07364,20.0481,'c8cc7e8f4fe9115576c2c4086ee9dcc5','orkana',i),
+a(50.07332,20.05112,'f9e0405c5e7599afd2ff4d3d041385fd','orkana',i),
+a(50.07509,20.04701,'72ca8b2cbaaab14b28f62dcad62e3c41','struga',i),
+a(50.07779,20.04509,'708c86369d53ac83529b082c5a6c2b07','struga',i),
+a(50.07748,20.04533,'df7245857be81dc620b75fa2d1001f24','struga',i),
+a(50.077,20.04589,'ffcc0215b295044c007e9e954ca9a919','struga',i),
+a(50.08234,20.04436,'a4950a7b2dcf061ce5c1a5be131e6662','bulwarowa',i),
+a(50.08054,20.04803,'c60dcda9831d7d135db506061149c7dd','bulwarowa',i),
+a(50.07859,20.04457,'b0bc287718532873920da8e3f1006ea6','żeromskiego',i),
+a(50.07233,20.03275,'b2962ec258be008ed0d4e20b480e6cde','spacerowa',i),
+a(50.0788,20.03874,'f341e5536466a5c627d86044223528c9','żeromskiego',i),
+a(50.07897,20.03884,'1f202eca6dc81efb62cfda475a4a897a','aleja róż',i),
+a(50.08104,20.04697,'459e48dd0b5eef1a2be7c421440ab6f9','bulwarowa',i),
 ])});
 var i = new L.IconMaterial.icon({icon: '', markerColor: 'brown', outlineWidth: 1, iconSize: [31, 42]});
 layers.push({name: 'Rdza', color: 'brown', group: L.layerGroup([
