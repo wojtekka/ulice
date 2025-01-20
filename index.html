@@ -16,6 +16,7 @@
         <script src="js/leaflet.js"></script>
         <script src="js/L.Control.Locate.js"></script>
         <script src="js/leaflet.icon-material.js"></script>
+        <script src="js/customlayers.js"></script>
         <style type="text/css"><!--
             body {
                 padding: 0;
@@ -43,12 +44,14 @@
             }).addTo(map);
 
             let overlays = {};
+            let overlayId = 0;
             for (const layer of layers) {
-                let color = '<div style="display: inline-block; vertical-align: middle; height: 1em; width: 1em; border: 1px solid black; background-color: ' + layer.color + ';">&nbsp;</div>';
-                overlays[color + " " + layer.name + " (" + layer.group.getLayers().length + ")"] = layer.group;
+                layer.group.color = layer.color;
+                overlays[layer.name] = { group: layer.group, color: layer.color };
                 map.addLayer(layer.group);
+                overlayId += 1;
             }
-            L.control.layers(null, overlays).addTo(map);
+            L.Control.customLayers(overlays).addTo(map);
             L.control.locate().addTo(map);
 
             map.on("popupclose", function() {
@@ -71,7 +74,7 @@
                     }
                 }
 
-                let infoFopup = L.popup()
+                let infoFopup = L.popup({closeOnClick: true})
                     .setLatLng([50.06170971570898, 19.937360020536737])
                     .setContent("<h2>Ta mapa jest w budowie!</h2><p>Nie wszystkie pinezki znajdują się w poprawnym miejscu (GPS w telefonie często nie nadążął). Rodzaje tabliczek nie są rozróżnione kolorami. Niektóre pinezki wskazują na współczesne tabliczki, których nie powinno być na mapie. Brakuje legendy. Brakuje odnośników do Google Street View dla tych tabliczek, których już nie ma. Brakuje... wielu rzeczy brakuje.</p>")
                     .openOn(map);
