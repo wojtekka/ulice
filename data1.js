@@ -850,11 +850,13 @@ a(50.07289,20.03785,'d6c38ed65012ed6ebc9c0a50581cee05','plac centralny',i),
 a(50.04499,19.95411,'f4592f9630f57a196d7fe1d0b0946649','limanowskiego',i),
 a(50.06133,20.05843,'63b9c5eff436d60cba6f13df34ddfb1c','żaglowa',i),
 a(50.0663,19.94353,'50a92aab7d00a67c2a90bd283a322556','worcella',i),
+a(50.05423,19.92529,'81242757c0b65767f7285428a4406d9b','kościuszki',i),
 a(50.07288,20.03715,'cf14f9dc019e6b26e0db81100d9767d8','róż',i),
 a(50.08575,19.95404,'2f71cc9567778f59637cbffffb704af7','29 listopada',i),
 a(50.06756,19.92874,'457489ffc92852519f4b51331341d671','kremerowska',i),
 a(50.04935,19.92615,'b891e21c779933ad0f8a868efb05a3d4','skwerowa',i),
 a(50.07264,20.03626,'9970694706b4d2b756552ef80f41d10d','plac centralny',i),
+a(50.03681,19.89511,'ac395a5d2db4393a412ca5d68abf3ae6','skalica',i),
 a(50.07274,20.0384,'17b9b24a358adb617773a0fcace966b7','plac centralny',i),
 ])});
 var i = new L.IconMaterial.icon({icon: '', markerColor: 'palegreen', outlineWidth: 1, iconSize: [31, 42]});
