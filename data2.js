@@ -1,26 +1,18 @@
 var icon = new L.IconMaterial.icon({icon: "", markerColor: "white", outlineColor: "lightgray", outlineWidth: 1, iconSize: [31, 42]});
 layers.push({name: 'Do sfocenia', color: 'white', group: L.layerGroup([
+L.marker([49.9757984, 19.9457739], {icon: icon}),
 L.marker([50.067134, 19.961231], {icon: icon}),
-L.marker([50.0440615, 19.9459966], {icon: icon}),
-L.marker([50.0543892, 19.9394158], {icon: icon}),
 L.marker([49.9871993, 19.9142177], {icon: icon}),
-L.marker([50.0558756, 19.9403002], {icon: icon}),
-L.marker([50.055675, 19.940257], {icon: icon}),
-L.marker([50.0541748, 19.9393836], {icon: icon}),
 L.marker([50.061768, 19.97023], {icon: icon}),
 L.marker([50.025066, 19.987371], {icon: icon}),
-L.marker([50.028173, 19.932035], {icon: icon}),
 L.marker([50.04968, 19.9331], {icon: icon}),
 L.marker([49.992002, 19.978062], {icon: icon}),
 L.marker([50.072274, 19.898859], {icon: icon}),
-L.marker([50.066365, 19.892576], {icon: icon}),
-L.marker([50.050329, 19.949015], {icon: icon}),
-L.marker([50.050038, 19.947984], {icon: icon}),
-L.marker([50.05064, 19.949816], {icon: icon}),
 L.marker([50.065333, 19.845647], {icon: icon}),
 ])});
 var icon = new L.IconMaterial.icon({icon: "", markerColor: "gray", outlineColor: "darkgray", outlineWidth: 1, iconSize: [31, 42]});
 layers.push({name: 'Nie ma już', color: 'gray', group: L.layerGroup([
+L.marker([50.028135, 19.932017], {icon: icon}).bindPopup('<iframe src="https://www.google.com/maps/embed?pb=!4v1742937854408!6m8!1m7!1s4dEJzPfwDVp39Ny8TCV_VQ!2m2!1d50.02815615955783!2d19.9320921679808!3f315.1511528934479!4f-19.46399003493906!5f3.325193203789971" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>', {maxWidth: 400}),
 L.marker([50.067133, 19.961294], {icon: icon}).bindPopup('<iframe src="https://www.google.com/maps/embed?pb=!4v1742230413738!6m8!1m7!1sTal_hKYLh9OmtbUE_6xTUg!2m2!1d50.06716713997147!2d19.96139618877392!3f246.8188722350484!4f4.944368360461496!5f3.325193203789971" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>', {maxWidth: 400}),
 L.marker([50.046326, 19.910874], {icon: icon}).bindPopup('<iframe src="https://www.google.com/maps/embed?pb=!4v1739095842929!6m8!1m7!1s7yOAFLbMU0P3eG9Xpv99jA!2m2!1d50.04640395696249!2d19.9109680643847!3f237.61440845554392!4f5.468247079716548!5f3.325193203789971" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>', {maxWidth: 400}),
 L.marker([50.002239, 19.897784], {icon: icon}).bindPopup('<iframe src="https://www.google.com/maps/embed?pb=!4v1737287678008!6m8!1m7!1s7yPM9ZX4yBeshT12LxJtfw!2m2!1d50.00232425127783!2d19.89763379303111!3f190.901259335763!4f-15.756569284575306!5f3.325193203789971" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>', {maxWidth: 400}),
