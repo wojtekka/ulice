@@ -982,6 +982,20 @@ a(50.00026,19.92438,'cb9a7a84a77323ddece469e23ee07c32','goździkowa',i),
 a(50.05897,19.94938,'84f730ee0b79eb3e3b2d678992c5cf7f','grzegórzecka',i),
 a(50.09551,19.87895,'3e782b3b12749a58c87789a37e997fd2','pejzażowa',i),
 ])});
+var i = new L.IconMaterial.icon({icon: '', markerColor: 'rgb(255,215,0)', outlineWidth: 1, iconSize: [31, 42]});
+layers.push({name: 'Nieskategoryzowane', color: 'rgb(255,215,0)', group: L.layerGroup([
+a(50.0886,19.94083,'126d56c4f5bddc93fe9a5473a36988ca','zdrowa',i),
+a(50.09235,19.94451,'614dbd5bdaec9266301f09929c5a13bc','mackiewicza',i),
+a(50.05731,19.91187,'1d531c6b87dcca2d77f5c2748784eba6','focha',i),
+a(50.05533,19.89405,'74a748cd91a9fba354adfa497248246c','mccartneya',i),
+a(50.02867,19.93121,'bd838968baa1548204dc43aeedff50c4','kędzierzyńska',i),
+a(50.04598,20.06203,'e2b533f91c3ac55fca494e5c90dccfa8','czeczotta',i),
+a(50.07893,19.87971,'e762167468c69fa2440a02d2938221db','lindego',i),
+a(50.09255,19.94451,'69d92b3fa5c5e5ccfa21bc1b7a172325','bursztynowa',i),
+a(50.07288,20.03715,'cf14f9dc019e6b26e0db81100d9767d8','róż',i),
+a(50.03681,19.89511,'ac395a5d2db4393a412ca5d68abf3ae6','skalica',i),
+a(50.07079,20.03531,'5f275152860d0ce326daf0192eb6c827','jana pawła ii',i),
+])});
 var i = new L.IconMaterial.icon({icon: '', markerColor: 'teal', outlineWidth: 1, iconSize: [31, 42]});
 layers.push({name: 'Ariańska', color: 'teal', group: L.layerGroup([
 a(50.06728,19.9546,'60a34bf1aa7cfd5437ffed025908bb90','ariańska',i),
@@ -1091,15 +1105,7 @@ layers.push({name: 'Ogrodniki/Uboczna', color: 'lightcyan', group: L.layerGroup(
 a(50.02677,19.9355,'8b65826b82cc3f228cb654e1de0f4274','ogrodniki',i),
 a(50.05044,19.87756,'ce7f7bb092c67ee099f2a4c9d6717560','uboczna',i),
 ])});
-var i = new L.IconMaterial.icon({icon: '', markerColor: 'rgb(255,215,0)', outlineWidth: 1, iconSize: [31, 42]});
-layers.push({name: 'Nieskategoryzowane', color: 'rgb(255,215,0)', group: L.layerGroup([
-a(50.05731,19.91187,'1d531c6b87dcca2d77f5c2748784eba6','focha',i),
-a(50.07893,19.87971,'e762167468c69fa2440a02d2938221db','lindego',i),
-a(50.07288,20.03715,'cf14f9dc019e6b26e0db81100d9767d8','róż',i),
-a(50.03681,19.89511,'ac395a5d2db4393a412ca5d68abf3ae6','skalica',i),
-])});
 var i = new L.IconMaterial.icon({icon: '', markerColor: 'brown', outlineWidth: 1, iconSize: [31, 42]});
 layers.push({name: 'Rdza', color: 'brown', group: L.layerGroup([
 a(50.06939,19.93364,'cedaf69c3dda1cb285d832fdbd2ff4c2','łobzowska',i),
-a(50.08863,19.94051,'cdda7ad7f74095f3645a45b5b4d3c487','zdrowa',i),
 ])});
