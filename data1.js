@@ -492,7 +492,6 @@ a(50.07898,19.87983,'cc9472e58f3a9e23bd01829bd9b0b575','na błonie',i),
 a(50.06082,19.89181,'892ec7c8077c723ef902fc907666e95f','tondosa',i),
 a(50.107,19.94305,'ad0a251a089c86f86e6388361078e1c1','bibicka',i),
 a(50.03974,19.82896,'36151bb05dece86a67fc351e225a0707','skalna',i),
-a(50.02212,19.9896,'04e267f9bc71b3b1965ae7925e09ef03','prosta',i),
 a(50.06096,19.94805,'359534655fda45fb7210469c7e1b2828','blich',i),
 a(50.07626,19.90411,'6f44db1118b04aa4e15458aa102c7900','staszczyka',i),
 a(50.07541,19.90635,'8afa548f344c5802070099bae6d6673e','piastowska',i),
@@ -876,6 +875,31 @@ a(50.06353,19.92934,'e0e01aa90bc03ff5f277f2a2c1ff6ae8','krupnicza',i),
 a(50.08658,19.94826,'02a22f61d3f7f35c4b203714c9b43db6','żmujdzka',i),
 a(50.06844,19.97897,'555e62ef72f5f46fcc5a13c61c4b9295','mogilska',i),
 ])});
+var i = new L.IconMaterial.icon({icon: '', markerColor: 'rgb(255,215,0)', outlineWidth: 1, iconSize: [31, 42]});
+layers.push({name: 'Nieskategoryzowane', color: 'rgb(255,215,0)', group: L.layerGroup([
+a(50.02519,19.98737,'8838576fa7fb9555fb74a1a519a7a9c7','gersona',i),
+a(50.06973,19.95948,'64a38020acb8022229ca1be397cd5bad','moniuszki',i),
+a(50.07297,20.03732,'3290adabf1951efb5900978bb00158a0','aleja róż',i),
+a(50.02213,19.9896,'4ab18e486836fbabc11b45407fe04af6','prosta',i),
+a(50.06958,19.96031,'9b6b581fc6817121afb971722d7f67db','moniuszki',i),
+a(50.04963,19.93307,'b51817943200f4af3d58987a4da3b7f4','bulwar poleski',i),
+a(50.07201,20.05141,'9fa05258ea00779419a8fca51e4da470','rutkowskiego',i),
+a(50.0212,19.98849,'5830aa73c829c523e5b61754575f7d6b','dygasińskiego',i),
+a(50.07893,19.87971,'e762167468c69fa2440a02d2938221db','lindego',i),
+a(50.07954,20.03949,'45dc53259e0fbfc60d55cf0931d21744','aleja róż',i),
+a(50.07279,19.92906,'845ba5b16be1704df1d735bc5e0a95bc','gzymsików',i),
+a(50.07288,20.03715,'cf14f9dc019e6b26e0db81100d9767d8','róż',i),
+a(50.07325,19.92292,'5ccd718b640da56e66e9995d61215328','kujawska',i),
+a(50.0674,19.92821,'2bdd6f9ea7b3102601bfba220b75b6c0','grabowskiego',i),
+a(50.06959,19.95941,'8cce085125a3f5b3f0aedb89e22bf81d','moniuszki',i),
+a(50.01246,19.93765,'1900f9ad29ae45dc073f67ca61ec353f','totus tuus',i),
+a(50.06179,19.9317,'8d022f0ca5ad48f36399a3a9363bddeb','straszewskiego',i),
+a(50.0246,19.98342,'ede90d0e9a7fb25be7e11e4c7669854c','bieżanowska',i),
+a(50.06973,19.96027,'edfa8fad7aca2dd4d8610f2d85a9bae9','moniuszki',i),
+a(50.04505,19.94787,'6e756a077d7cd3248df2da2cd5c0c1ab','staromostowa',i),
+a(50.06847,19.92168,'50bda137e6cae39f06decdb0a2c62273','chopina',i),
+a(50.09235,19.96306,'b8024c4ad20ef875f1ab7a1c905f3fad','łepkowskiego',i),
+])});
 var i = new L.IconMaterial.icon({icon: '', markerColor: 'peru', outlineWidth: 1, iconSize: [31, 42]});
 layers.push({name: 'Nowa Huta', color: 'peru', group: L.layerGroup([
 a(50.07296,20.05304,'3df1bdb86a9335f05bbd9a15d86c0281','orkana',i),
@@ -1052,20 +1076,6 @@ a(50.06922,19.93094,'b01019994ac073ef14679078d44c1316','siemiradzkiego',i),
 a(50.0674,19.85049,'8383c5fda308abdebf40df7b1552ec6e','junacka',i),
 a(50.05778,19.93114,'b49cfb986a3c03a140d2dec7db3cfcc7','zwierzyniecka',i),
 a(50.10529,19.94454,'c2a72cf8b6f5a704ec227addd8924022','dróżnicka',i),
-])});
-var i = new L.IconMaterial.icon({icon: '', markerColor: 'rgb(255,215,0)', outlineWidth: 1, iconSize: [31, 42]});
-layers.push({name: 'Nieskategoryzowane', color: 'rgb(255,215,0)', group: L.layerGroup([
-a(50.07297,20.03732,'3290adabf1951efb5900978bb00158a0','aleja róż',i),
-a(50.07201,20.05141,'9fa05258ea00779419a8fca51e4da470','rutkowskiego',i),
-a(50.07893,19.87971,'e762167468c69fa2440a02d2938221db','lindego',i),
-a(50.07954,20.03949,'45dc53259e0fbfc60d55cf0931d21744','aleja róż',i),
-a(50.07279,19.92906,'845ba5b16be1704df1d735bc5e0a95bc','gzymsików',i),
-a(50.07288,20.03715,'cf14f9dc019e6b26e0db81100d9767d8','róż',i),
-a(50.07325,19.92292,'5ccd718b640da56e66e9995d61215328','kujawska',i),
-a(50.0674,19.92821,'2bdd6f9ea7b3102601bfba220b75b6c0','grabowskiego',i),
-a(50.04505,19.94787,'6e756a077d7cd3248df2da2cd5c0c1ab','staromostowa',i),
-a(50.06847,19.92168,'50bda137e6cae39f06decdb0a2c62273','chopina',i),
-a(50.09235,19.96306,'b8024c4ad20ef875f1ab7a1c905f3fad','łepkowskiego',i),
 ])});
 var i = new L.IconMaterial.icon({icon: '', markerColor: 'lavender', outlineWidth: 1, iconSize: [31, 42]});
 layers.push({name: 'Prawie monospace', color: 'lavender', group: L.layerGroup([
