@@ -1,15 +1,13 @@
 var icon = new L.IconMaterial.icon({icon: "", markerColor: "white", outlineColor: "lightgray", outlineWidth: 1, iconSize: [31, 42]});
 layers.push({name: 'Do sfocenia', color: 'white', group: L.layerGroup([
-L.marker([49.9757984, 19.9457739], {icon: icon}),
-L.marker([50.067134, 19.961231], {icon: icon}),
-L.marker([49.9871993, 19.9142177], {icon: icon}),
-L.marker([50.061768, 19.97023], {icon: icon}),
-L.marker([49.992002, 19.978062], {icon: icon}),
 L.marker([50.072274, 19.898859], {icon: icon}),
 L.marker([50.065333, 19.845647], {icon: icon}),
 ])});
 var icon = new L.IconMaterial.icon({icon: "", markerColor: "gray", outlineColor: "darkgray", outlineWidth: 1, iconSize: [31, 42]});
 layers.push({name: 'Nie ma już', color: 'gray', group: L.layerGroup([
+L.marker([50.067134, 19.961231], {icon: icon}).bindPopup('<iframe src="https://www.google.com/maps/embed?pb=!4v1750881030560!6m8!1m7!1sUpVzP7lvxqb2ZmFvgvrrVw!2m2!1d50.06719948134208!2d19.9611988475704!3f141.85972593556596!4f5.919224689657852!5f3.325193203789971" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>', {maxWidth: 400}),
+L.marker([50.091394, 19.916629], {icon: icon}).bindPopup('<iframe src="https://www.google.com/maps/embed?pb=!4v1746611764780!6m8!1m7!1szsPZ5NZ1eMCCHoO4okWpyQ!2m2!1d50.09140313517737!2d19.91675709847213!3f250.01358436581313!4f-10.160515910867517!5f3.325193203789971" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>', {maxWidth: 400}),
+L.marker([52.5736685, 18.9662718], {icon: icon}),
 L.marker([50.043019, 19.978512], {icon: icon}).bindPopup('<iframe src="https://www.google.com/maps/embed?pb=!4v1745331782015!6m8!1m7!1s9M83MSLZBz16Bn8yKp7d4Q!2m2!1d50.04310377503717!2d19.9784726840881!3f146.59950553999224!4f-10.06945196257422!5f3.325193203789971" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>', {maxWidth: 400}),
 L.marker([50.028135, 19.932017], {icon: icon}).bindPopup('<iframe src="https://www.google.com/maps/embed?pb=!4v1742937854408!6m8!1m7!1s4dEJzPfwDVp39Ny8TCV_VQ!2m2!1d50.02815615955783!2d19.9320921679808!3f315.1511528934479!4f-19.46399003493906!5f3.325193203789971" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>', {maxWidth: 400}),
 L.marker([50.067133, 19.961294], {icon: icon}).bindPopup('<iframe src="https://www.google.com/maps/embed?pb=!4v1742230413738!6m8!1m7!1sTal_hKYLh9OmtbUE_6xTUg!2m2!1d50.06716713997147!2d19.96139618877392!3f246.8188722350484!4f4.944368360461496!5f3.325193203789971" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>', {maxWidth: 400}),
