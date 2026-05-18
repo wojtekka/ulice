@@ -1,14 +1,6 @@
 var icon = new L.IconMaterial.icon({icon: "", markerColor: "white", outlineColor: "lightgray", outlineWidth: 1, iconSize: [31, 42]});
 layers.push({name: 'Do sfocenia', color: 'white', group: L.layerGroup([
-L.marker([50.069468, 19.96749], {icon: icon}),
-L.marker([50.068705, 19.968244], {icon: icon}),
-L.marker([50.069012, 19.965524], {icon: icon}),
-L.marker([50.069085, 19.965832], {icon: icon}),
-L.marker([50.069175, 19.96558], {icon: icon}),
-L.marker([50.069284, 19.963262], {icon: icon}),
-L.marker([50.069444, 19.963285], {icon: icon}),
-L.marker([50.069323, 19.962864], {icon: icon}),
-L.marker([50.069461, 19.962924], {icon: icon}),
+L.marker([50.090272, 19.883297], {icon: icon}),
 L.marker([50.055367, 19.940109], {icon: icon}),
 L.marker([50.065333, 19.845647], {icon: icon}),
 ])});
